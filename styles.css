@@ -90,9 +90,11 @@ a:focus-visible {
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
+  max-width: 1500px;
 }
 .line {
   margin: 0;
+  white-space: nowrap;
 }
 
 .line-1 {
@@ -106,6 +108,10 @@ a:focus-visible {
 .line-3 {
   margin-left: -10rem;
 }
+.line-4 {
+  margin-left: -12.5rem;
+}
+
 .section {
   border: 0;
   background: transparent;
