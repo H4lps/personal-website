@@ -61,9 +61,12 @@ a:focus-visible {
 }
 
 .content {
-  margin-top: 1.2rem;
+  margin-top: 32rem;
   display: grid;
   gap: 1rem;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
 }
 
 .section {
