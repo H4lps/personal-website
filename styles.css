@@ -66,9 +66,17 @@ a:focus-visible {
 
 .profile-card {
   position: fixed;
-  top: 9.5rem;
-  right: 3rem;
-  width: clamp(150px, 18vw, 230px);
+  top: 50rem;
+  right: 20rem;
+  width: clamp(400px, 18vw, 230px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.profile-photo-link {
+  display: block;
+  width: 100%;
 }
 
 .profile-photo-link img {
@@ -78,7 +86,7 @@ a:focus-visible {
 }
 
 .profile-caption {
-  margin-top: 0.4rem;
+  margin: 0;
   font-size: 0.78rem;
   line-height: 1.35;
 }
@@ -138,17 +146,17 @@ p {
 }
 
 .simple-list,
-.project-list {
+.experiences-list {
   margin: 0;
   padding-left: 1.2rem;
 }
 
 .simple-list li,
-.project-list li {
+.experiences-list li {
   margin: 0.35rem 0;
 }
 
-.project-list strong {
+.experiences-list strong {
   color: var(--red);
 }
 
